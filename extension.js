@@ -84,15 +84,15 @@
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
-        skipPosition: 3,
+        skipPosition: 1,
         skipReasons: [
-            ["theme", "The song does not fit the room theme. "],
-            ["op", "The song is on the OP list. "],
-            ["history", "The song is in the history. "],
-            ["mix", "You played a mix, which is against the rules. "],
-            ["sound", "The song you played had bad sound quality or no sound. "],
-            ["nsfw", "The song you played contained was NSFW (image or sound). "],
-            ["unavailable", "The song you played was unavailable for some users. "]
+            ["theme", "the song you played does not fit the room theme. "],
+            ["op", "the song you played  is on the OP list. "],
+            ["history", "the song you played is in the history. "],
+            //["mix", "You played a mix, which is against the rules. "],
+            ["sound", "the song you played had no sound or bad sound quality. "],
+            ["nsfw", "the song you played contained either NSFW image or sound. "],
+            ["unavailable", "the song you played was unavailable for some users. "]
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
