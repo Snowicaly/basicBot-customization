@@ -96,7 +96,7 @@
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
+        motdEnabled: true,
         motdInterval: 5,
         motd: "Fancy seeing you here.",
         filterChat: true,
