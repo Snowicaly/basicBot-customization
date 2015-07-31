@@ -1,7 +1,7 @@
 (function () {
 
     //Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "Snowicaly";
 
     //Define our function responsible for extending the bot.
     function extend() {
@@ -59,10 +59,10 @@
         botName: "basicBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-        startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
-        startupEmoji: false, // true or false
-        autowoot: true,
+        startupCap: 20, // 1-200
+        startupVolume: 20, // 0-100
+        startupEmoji: true, // true or false
+        autowoot: false,
         autoskip: false,
         smartSkip: true,
         cmdDeletion: true,
@@ -86,28 +86,28 @@
         usercommandsEnabled: true,
         skipPosition: 3,
         skipReasons: [
-            ["theme", "This song does not fit the room theme. "],
-            ["op", "This song is on the OP list. "],
-            ["history", "This song is in the history. "],
+            ["theme", "The song does not fit the room theme. "],
+            ["op", "The song is on the OP list. "],
+            ["history", "The song is in the history. "],
             ["mix", "You played a mix, which is against the rules. "],
             ["sound", "The song you played had bad sound quality or no sound. "],
-            ["nsfw", "The song you contained was NSFW (image or sound). "],
-            ["unavailable", "The song you played was not available for some users. "]
+            ["nsfw", "The song you played contained was NSFW (image or sound). "],
+            ["unavailable", "The song you played was unavailable for some users. "]
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "Fancy seeing you here.",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
         opLink: null,
         rulesLink: null,
         themeLink: null,
-        fbLink: null,
+        fbLink: "http://facebook.com/OfficialMyAnimeList",
         youtubeLink: null,
-        website: null,
+        website: "http://myanimelist.net/",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
