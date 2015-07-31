@@ -58,7 +58,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "basicBot",
         language: "english",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/Snowicaly/basicBot/master/lang/en.json",
         startupCap: 20, // 1-200
         startupVolume: 20, // 0-100
         startupEmoji: true, // true or false
@@ -110,7 +110,7 @@
         website: "http://myanimelist.net/",
         intervalMessages: [],
         messageInterval: 5,
-        songstats: true,
+        songstats: false,
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/NSFWlist.json",
